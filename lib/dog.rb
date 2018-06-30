@@ -10,8 +10,8 @@ def initialize(name)
 end
 
 def self.all
-  @@all.each do |name|
-    puts Dog.name
+  @@all.each do |i|
+    puts i.name
   end
 end
 
